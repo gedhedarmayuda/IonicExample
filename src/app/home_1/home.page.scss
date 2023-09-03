@@ -125,6 +125,35 @@ table tr td{
   text-align: center;
   border: 1px solid white;
 }
+
+
+
+
+table, td, tr{
+  text-align: center;
+  align-items: center;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.flex-container{
+  display: flex;
+}
+.flex-container > .span1{
+  padding-right: 20%;
+}
+.flex-container > .span2{
+  padding-right: 10%;
+}
+td{
+  border: 1px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left{
+  text-align: center !important;
+}
 */
 
 

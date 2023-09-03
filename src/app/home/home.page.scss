@@ -1,26 +1,11 @@
-table, td, tr{
+ion-col {
+  background-color: #135d54;
+  border: solid 1px white;
+  color: #fff;
   text-align: center;
+}
+ion-thumbnail{
   align-items: center;
+  left: 50%;
+  right: 50%;
 }
-table{
-  width: 100%;
-  border-collapse: collapse;
-}
-.flex-container{
-  display: flex;
-}
-.flex-container > .span1{
-  padding-right: 20%;
-}
-.flex-container > .span2{
-  padding-right: 10%;
-}
-td{
-  border: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.left{
-  text-align: center !important;
-}
-
